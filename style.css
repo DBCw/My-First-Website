@@ -1,0 +1,122 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0% 15px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:45%;
+    list-style-type:none;
+}
+ 
+nav button{
+    background-color:transparent;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    width: 100px;
+    border-radius: 4px;
+}
+
+#logo{
+    width: 4%;
+}
+.section1-container{
+    padding-top: 9%;
+    padding-bottom: 14%;
+    background-image: url("./images/pics.png");
+    background-attachment:fixed;
+    text-align: center;
+    height: 40vh;
+    background-size: cover;
+    color: white;
+    
+}
+
+.section1-container div{
+padding:3% 0% ;
+}
+
+
+#first{
+    background-color: black;
+    color: white;
+    padding:19px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+}
+
+#second{
+    background-color: white;
+    color: black;
+    padding: 19px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+
+}
+
+.theory{
+    text-align:center;
+}
+
+.obj{
+    padding-top:6% ;
+    text-align: center;
+}
+
+#h{
+    background-color:gray;
+    width: 100%;
+    padding:2%;
+    text-align: center;
+    
+}
+
+.main div {
+    width: 25%;
+}
+
+#img{
+width: 100%;
+height:240px;
+}
+
+.section2-container{
+    background-image: url("./images/kk.jpg");
+    background-size: cover;
+    margin-top: 12%;
+    padding-top: 9%;
+    padding-bottom: 12%;
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+}
+.dark-pic {
+    padding-right: 15%;
+
+}
+#hoodie{
+    width: 100%;
+    font-size: 39px;
+}
+
+#hooded{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 54px;
+}
